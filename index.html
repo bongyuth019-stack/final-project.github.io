@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Static Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1 style="text-align: center"><u>Welcome to My Static Website</u></h1>
+    <hr />
+    <img width="140px" src="./female.png" alt="" />
+
+    <!-- AboutMe -->
+    <h3 style="color: red">
+      <i class="fa-solid fa-circle-user"></i><u>About Me</u>
+    </h3>
+    <!-- information -->
+
+    <p>
+      <b>Name:</b> Soon Thida <br />
+      <b>Age:</b> 30 years old <br />
+      <b>Address:</b> Siem Reap <br />
+      <b>Number:</b> 097352819
+    </p>
+    <hr />
+    <!-- Experience -->
+    <h3 style="color: red">
+      <i class="fa-solid fa-wallet"></i><u>Experience</u>
+    </h3>
+    <!-- unorderList and list -->
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Bootstrap</li>
+      <li>Jauery</li>
+      <li>React</li>
+      <li>Vue</li>
+    </ul>
+
+    <hr />
+    <!-- What can I do -->
+    <h3 style="color: red">
+      <i class="fa-solid fa-door-closed"></i><u>What can I do</u>
+    </h3>
+    <!-- Orderlist -->
+    <ol>
+      <li>Responsive Website</li>
+      <li>Dynamic Website</li>
+      <li>Ecommerce Website</li>
+    </ol>
+    <hr />
+    <!-- My Friends -->
+    <h3 style="color: red">
+      <i class="fa-solid fa-user-group"></i><u>My Friends</u>
+    </h3>
+    <!-- Table -->
+    <table style="width: 300px" border="1" cellspacing="0" cellpadding="8px">
+      <!-- table row -->
+      <tr style="color: white; background-color: gray">
+        <!-- table head -->
+        <th>No</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+      </tr>
+      <tr>
+        <!-- table data -->
+        <td style="text-align: center">1</td>
+        <td>Roth Thida</td>
+        <td style="text-align: center">12</td>
+        <td>Siem Reap</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">2</td>
+        <td>Sok Lin</td>
+        <td style="text-align: center">13</td>
+        <td>Battambang</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">3</td>
+        <td>Nut Pisey</td>
+        <td style="text-align: center">21</td>
+        <td>Phnom Penh</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">4</td>
+        <td>Channa Thida</td>
+        <td style="text-align: center">13</td>
+        <td>Phnom Penh</td>
+      </tr>
+    </table>
+    <hr />
+    <!-- Register -->
+    <h3 style="color: red">
+      <i class="fa-solid fa-message"></i><u>Register</u>
+    </h3>
+    <!-- form -->
+    <form>
+      <!-- border -->
+      <fieldset style="width: 160px">
+        <legend>Register</legend>
+        <!-- Name -->
+        <div>
+          <label>Name</label><br />
+          <input type="text" placeholder="Input your name" /><br />
+          <br />
+        </div>
+        <!-- Email -->
+        <label>Email</label><br />
+        <input type="email" placeholder="Input your email" /><br />
+        <br />
+        <!-- Number -->
+        <div>
+          <label>Number</label><br />
+          <input type="number" placeholder="Input your number" /><br />
+        </div>
+        <br />
+        <!-- Gender -->
+        <div>
+          <label>Gender</label><br />
+          <input type="radio" name="gender" /> <span>Male</span><br />
+          <input type="radio" name="gender" /> <span>Female</span>
+        </div>
+        <br />
+        <!-- Courses -->
+        <div>
+          <label>Courses</label><br />
+          <input type="checkbox" /><span>Basic Computer</span><br />
+          <input type="checkbox" /><span>Graphic Design</span><br />
+          <input type="checkbox" /><span>Web Frontend</span><br />
+          <input type="checkbox" /><span>Web Bankend</span><br />
+          <input type="checkbox" /><span>Frll Stack</span>
+        </div>
+        <br />
+        <!-- POB -->
+        <div>
+          <label>Address</label><br />
+          <select name="" id="">
+            <option value="Phnom Penh">Phnom Penh</option>
+            <option value="Kanda">Kandal</option>
+            <option value="Siem Reap">Siem Reap</option>
+            <option value="Kompot">Kompot</option>
+          </select>
+        </div>
+        <br />
+        <!-- Other -->
+        <div>
+          <label>Other</label> <br />
+          <!-- </textarea> : for input message -->
+          <textarea
+            style="width: 160px; height: 100px"
+            placeholder="Input your message....."
+          ></textarea>
+        </div>
+        <!-- btn -->
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+        <br />
+      </fieldset>
+    </form>
+    <!-- copyRight -->
+    <p style="text-align: center">&copy; Channa Virakyuth</p>
+  </body>
+</html>
